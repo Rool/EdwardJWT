@@ -19,5 +19,5 @@
     "ios": "8.0"
   },
   "swift_version": "4.0",
-  "source_files": "EdwardJWT/"
+  "source_files": "EdwardJW/**/*.swift"
 }

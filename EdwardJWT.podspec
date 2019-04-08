@@ -29,8 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.platform = :ios, '8.0'
   s.swift_version = '4.0'
-
-  s.source_files = 'EdwardJWT/'
+  s.source_files = 'EdwardJWT/**/*.swift'
   
   # s.resource_bundles = {
   #   'EdwardJWT' => ['EdwardJWT/Assets/*.png']
