@@ -8,10 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		23CCBE59394AF7B164DD79EB0F948A88 /* EdwardJWT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D0F6CA2E5E65B5D6BEFE44378F714B /* EdwardJWT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B4B14DD225B86A20021E67C /* Claims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14CB225B86A20021E67C /* Claims.swift */; };
+		2B4B14DE225B86A20021E67C /* Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14CC225B86A20021E67C /* Encode.swift */; };
+		2B4B14DF225B86A20021E67C /* CompactJSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14CD225B86A20021E67C /* CompactJSONEncoder.swift */; };
+		2B4B14E0225B86A20021E67C /* CompactJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14CE225B86A20021E67C /* CompactJSONDecoder.swift */; };
+		2B4B14E1225B86A20021E67C /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14CF225B86A20021E67C /* JWT.swift */; };
+		2B4B14E2225B86A20021E67C /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14D0225B86A20021E67C /* Algorithm.swift */; };
+		2B4B14E3225B86A20021E67C /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14D1225B86A20021E67C /* Decode.swift */; };
+		2B4B14E4225B86A20021E67C /* ClaimSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14D2225B86A20021E67C /* ClaimSet.swift */; };
+		2B4B14E5225B86A20021E67C /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14D3225B86A20021E67C /* Base64.swift */; };
+		2B4B14E6225B86A20021E67C /* JOSEHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14D4225B86A20021E67C /* JOSEHeader.swift */; };
+		2B4B14E7225B86A20021E67C /* HMACCryptoSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14D7225B86A20021E67C /* HMACCryptoSwift.swift */; };
+		2B4B14E8225B86A20021E67C /* HMACCommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14D8225B86A20021E67C /* HMACCommonCrypto.swift */; };
+		2B4B14E9225B86A20021E67C /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14D9225B86A20021E67C /* HMAC.swift */; };
+		2B4B14EA225B86A20021E67C /* None.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14DA225B86A20021E67C /* None.swift */; };
+		2B4B14EB225B86A20021E67C /* JWA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14DB225B86A20021E67C /* JWA.swift */; };
+		2B4B14EC225B86A20021E67C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B14DC225B86A20021E67C /* .gitkeep */; };
 		51A8EF929A22B711C268CC27CCB64C41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		58D8189BD0870FF79397A026605D4B3A /* Pods-EdwardJWT_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B49CB881955E284397B40849FBC27F /* Pods-EdwardJWT_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		657538DA84A89C8BEEEBE3D17649ADD9 /* Pods-EdwardJWT_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DA46E295D46D03CF3171C3D8132BBB /* Pods-EdwardJWT_Tests-dummy.m */; };
-		81E6F3F77ED9C44862E87F2BC89CA991 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166742D5157FF5DA42132F8015D2C9E /* Package.swift */; };
 		BBB218D9F47A8992B1333552CD78D360 /* EdwardJWT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 586FDAB7DFCB8D612BBBE5B43343AD56 /* EdwardJWT-dummy.m */; };
 		C24D68A3061B8FE8E87388139F9E18B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -28,27 +43,42 @@
 
 /* Begin PBXFileReference section */
 		06D0F6CA2E5E65B5D6BEFE44378F714B /* EdwardJWT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EdwardJWT-umbrella.h"; sourceTree = "<group>"; };
-		0CC4B73DC9E94164EB330F35630CBA81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0CC4B73DC9E94164EB330F35630CBA81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		17DF2F8AEA3BEF6B644ECA00902D41BE /* Pods-EdwardJWT_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdwardJWT_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		23E6E21F1B9A49CA5CE99277D0EEF59A /* Pods-EdwardJWT_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EdwardJWT_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		280E4FC49875A0376636E705D6F55367 /* EdwardJWT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EdwardJWT-prefix.pch"; sourceTree = "<group>"; };
-		3166742D5157FF5DA42132F8015D2C9E /* Package.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Package.swift; path = EdwardJWT/Package.swift; sourceTree = "<group>"; };
-		36AAE3C7A54AD166CFD9AA95A5A78C50 /* EdwardJWT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EdwardJWT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		42A8FC7AC255A9B6EC50DF934FC1BF66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2B4B14CB225B86A20021E67C /* Claims.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Claims.swift; sourceTree = "<group>"; };
+		2B4B14CC225B86A20021E67C /* Encode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encode.swift; sourceTree = "<group>"; };
+		2B4B14CD225B86A20021E67C /* CompactJSONEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactJSONEncoder.swift; sourceTree = "<group>"; };
+		2B4B14CE225B86A20021E67C /* CompactJSONDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactJSONDecoder.swift; sourceTree = "<group>"; };
+		2B4B14CF225B86A20021E67C /* JWT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
+		2B4B14D0225B86A20021E67C /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		2B4B14D1225B86A20021E67C /* Decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decode.swift; sourceTree = "<group>"; };
+		2B4B14D2225B86A20021E67C /* ClaimSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClaimSet.swift; sourceTree = "<group>"; };
+		2B4B14D3225B86A20021E67C /* Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
+		2B4B14D4225B86A20021E67C /* JOSEHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JOSEHeader.swift; sourceTree = "<group>"; };
+		2B4B14D7225B86A20021E67C /* HMACCryptoSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMACCryptoSwift.swift; sourceTree = "<group>"; };
+		2B4B14D8225B86A20021E67C /* HMACCommonCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMACCommonCrypto.swift; sourceTree = "<group>"; };
+		2B4B14D9225B86A20021E67C /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		2B4B14DA225B86A20021E67C /* None.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = None.swift; sourceTree = "<group>"; };
+		2B4B14DB225B86A20021E67C /* JWA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWA.swift; sourceTree = "<group>"; };
+		2B4B14DC225B86A20021E67C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		36AAE3C7A54AD166CFD9AA95A5A78C50 /* EdwardJWT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EdwardJWT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		42A8FC7AC255A9B6EC50DF934FC1BF66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4E24AC3417B3B748E7DAD336B2BB5AA0 /* Pods-EdwardJWT_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdwardJWT_Tests-Info.plist"; sourceTree = "<group>"; };
 		586FDAB7DFCB8D612BBBE5B43343AD56 /* EdwardJWT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EdwardJWT-dummy.m"; sourceTree = "<group>"; };
-		60F1B73526780E8451B0475DE629D681 /* Pods_EdwardJWT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EdwardJWT_Tests.framework; path = "Pods-EdwardJWT_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F1B73526780E8451B0475DE629D681 /* Pods_EdwardJWT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdwardJWT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6327ED38D617FFD44746EE1E944E4071 /* Pods-EdwardJWT_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EdwardJWT_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BCC3FDA470448903BCFB20DFF7710C5 /* EdwardJWT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EdwardJWT.xcconfig; sourceTree = "<group>"; };
 		881853C55BFFCD2C3924F322A8E961E4 /* EdwardJWT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EdwardJWT-Info.plist"; sourceTree = "<group>"; };
 		96B49CB881955E284397B40849FBC27F /* Pods-EdwardJWT_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EdwardJWT_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3EE52DEC1B814B1C315E94178704E5D /* Pods-EdwardJWT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdwardJWT_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C7846B3192A0CFFA69B096BF51D68382 /* Pods-EdwardJWT_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EdwardJWT_Tests.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE0B26F15F3846699594EBBEBF6D340C /* EdwardJWT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EdwardJWT.modulemap; sourceTree = "<group>"; };
 		E1DA46E295D46D03CF3171C3D8132BBB /* Pods-EdwardJWT_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EdwardJWT_Tests-dummy.m"; sourceTree = "<group>"; };
-		E76880D0CCEEFA562B9993DEA66C5748 /* EdwardJWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EdwardJWT.framework; path = EdwardJWT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76880D0CCEEFA562B9993DEA66C5748 /* EdwardJWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EdwardJWT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A5501DCD352DB0CB248551F0D71CD7 /* Pods-EdwardJWT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdwardJWT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +111,54 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2B4B14C9225B86A20021E67C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B4B14CA225B86A20021E67C /* JWT */,
+				2B4B14D5225B86A20021E67C /* JWA */,
+				2B4B14DC225B86A20021E67C /* .gitkeep */,
+			);
+			name = Classes;
+			path = EdwardJWT/Classes;
+			sourceTree = "<group>";
+		};
+		2B4B14CA225B86A20021E67C /* JWT */ = {
+			isa = PBXGroup;
+			children = (
+				2B4B14CB225B86A20021E67C /* Claims.swift */,
+				2B4B14CC225B86A20021E67C /* Encode.swift */,
+				2B4B14CD225B86A20021E67C /* CompactJSONEncoder.swift */,
+				2B4B14CE225B86A20021E67C /* CompactJSONDecoder.swift */,
+				2B4B14CF225B86A20021E67C /* JWT.swift */,
+				2B4B14D0225B86A20021E67C /* Algorithm.swift */,
+				2B4B14D1225B86A20021E67C /* Decode.swift */,
+				2B4B14D2225B86A20021E67C /* ClaimSet.swift */,
+				2B4B14D3225B86A20021E67C /* Base64.swift */,
+				2B4B14D4225B86A20021E67C /* JOSEHeader.swift */,
+			);
+			path = JWT;
+			sourceTree = "<group>";
+		};
+		2B4B14D5225B86A20021E67C /* JWA */ = {
+			isa = PBXGroup;
+			children = (
+				2B4B14D6225B86A20021E67C /* HMAC */,
+				2B4B14DA225B86A20021E67C /* None.swift */,
+				2B4B14DB225B86A20021E67C /* JWA.swift */,
+			);
+			path = JWA;
+			sourceTree = "<group>";
+		};
+		2B4B14D6225B86A20021E67C /* HMAC */ = {
+			isa = PBXGroup;
+			children = (
+				2B4B14D7225B86A20021E67C /* HMACCryptoSwift.swift */,
+				2B4B14D8225B86A20021E67C /* HMACCommonCrypto.swift */,
+				2B4B14D9225B86A20021E67C /* HMAC.swift */,
+			);
+			path = HMAC;
+			sourceTree = "<group>";
+		};
 		2CFCE7DD1B74F5E5258FA79E3F6D8D4B /* Pods-EdwardJWT_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +179,7 @@
 		3E295B91D81663D67047AB4DB3EB53F7 /* EdwardJWT */ = {
 			isa = PBXGroup;
 			children = (
-				3166742D5157FF5DA42132F8015D2C9E /* Package.swift */,
+				2B4B14C9225B86A20021E67C /* Classes */,
 				4D0479F747A2AD9AF30C1677F9BD0DBC /* Pod */,
 				C1E9530D72A1CE49990AA4F1193558A1 /* Support Files */,
 			);
@@ -249,6 +327,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -267,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4B14EC225B86A20021E67C /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +364,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4B14E2225B86A20021E67C /* Algorithm.swift in Sources */,
+				2B4B14DF225B86A20021E67C /* CompactJSONEncoder.swift in Sources */,
+				2B4B14E6225B86A20021E67C /* JOSEHeader.swift in Sources */,
+				2B4B14E8225B86A20021E67C /* HMACCommonCrypto.swift in Sources */,
+				2B4B14E7225B86A20021E67C /* HMACCryptoSwift.swift in Sources */,
+				2B4B14EA225B86A20021E67C /* None.swift in Sources */,
+				2B4B14EB225B86A20021E67C /* JWA.swift in Sources */,
+				2B4B14E0225B86A20021E67C /* CompactJSONDecoder.swift in Sources */,
+				2B4B14E3225B86A20021E67C /* Decode.swift in Sources */,
+				2B4B14DE225B86A20021E67C /* Encode.swift in Sources */,
+				2B4B14E4225B86A20021E67C /* ClaimSet.swift in Sources */,
+				2B4B14DD225B86A20021E67C /* Claims.swift in Sources */,
 				BBB218D9F47A8992B1333552CD78D360 /* EdwardJWT-dummy.m in Sources */,
-				81E6F3F77ED9C44862E87F2BC89CA991 /* Package.swift in Sources */,
+				2B4B14E5225B86A20021E67C /* Base64.swift in Sources */,
+				2B4B14E9225B86A20021E67C /* HMAC.swift in Sources */,
+				2B4B14E1225B86A20021E67C /* JWT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,8 +650,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -1,8 +1,8 @@
 {
   "name": "EdwardJWT",
   "version": "0.1.0",
-  "summary": "A short description of EdwardJWT.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "EdwardJWT. A JSONWebToken Tools",
+  "description": "EdwardJWT. A JSONWebToken Tools. JWT.encode()",
   "homepage": "https://github.com/EdwardSun123/EdwardJWT",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "6.0"
+    "ios": "8.0"
   },
   "swift_version": "4.0",
   "source_files": "EdwardJWT/*"
