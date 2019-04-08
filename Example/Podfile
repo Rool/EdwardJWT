@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EdwardJWT_Tests' do
+  pod 'EdwardJWT', :path => '../'
+  
+  
+end
