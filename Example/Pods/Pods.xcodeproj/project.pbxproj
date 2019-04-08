@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = EdwardJWT;
-			productName = EdwardJWT;
 		};
 /* End PBXAggregateTarget section */
 
@@ -37,34 +36,17 @@
 
 /* Begin PBXFileReference section */
 		07DB5A4F34A2E7CEA6D2D9965C96E129 /* EdwardJWT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EdwardJWT.xcconfig; sourceTree = "<group>"; };
-		1F40DDF3FA7B6967B372FA8C9A481015 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1F40DDF3FA7B6967B372FA8C9A481015 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2333CBC4DF50A8AE33B39E76EF9BA01D /* Pods-EdwardJWT_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EdwardJWT_Tests-dummy.m"; sourceTree = "<group>"; };
-		2B4B14EF225B8ADA0021E67C /* Claims.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Claims.swift; sourceTree = "<group>"; };
-		2B4B14F0225B8ADA0021E67C /* Encode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encode.swift; sourceTree = "<group>"; };
-		2B4B14F1225B8ADA0021E67C /* CompactJSONEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactJSONEncoder.swift; sourceTree = "<group>"; };
-		2B4B14F2225B8ADA0021E67C /* CompactJSONDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactJSONDecoder.swift; sourceTree = "<group>"; };
-		2B4B14F3225B8ADA0021E67C /* JWT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
-		2B4B14F4225B8ADA0021E67C /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
-		2B4B14F5225B8ADA0021E67C /* Decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decode.swift; sourceTree = "<group>"; };
-		2B4B14F6225B8ADA0021E67C /* ClaimSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClaimSet.swift; sourceTree = "<group>"; };
-		2B4B14F7225B8ADA0021E67C /* Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
-		2B4B14F8225B8ADA0021E67C /* JOSEHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JOSEHeader.swift; sourceTree = "<group>"; };
-		2B4B14FB225B8ADA0021E67C /* HMACCryptoSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMACCryptoSwift.swift; sourceTree = "<group>"; };
-		2B4B14FC225B8ADA0021E67C /* HMACCommonCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMACCommonCrypto.swift; sourceTree = "<group>"; };
-		2B4B14FD225B8ADA0021E67C /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
-		2B4B14FE225B8ADA0021E67C /* None.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = None.swift; sourceTree = "<group>"; };
-		2B4B14FF225B8ADA0021E67C /* JWA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWA.swift; sourceTree = "<group>"; };
-		2B4B1500225B8ADA0021E67C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		2B4B1502225B8ADA0021E67C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		33039EB9B8EFDA1AF3E32CD109B1FCC7 /* EdwardJWT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EdwardJWT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33039EB9B8EFDA1AF3E32CD109B1FCC7 /* EdwardJWT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EdwardJWT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		412852ADD80483C79E9308FF2BA6B60A /* Pods-EdwardJWT_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdwardJWT_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		668A7017682BC0A5B765608E432BD44F /* Pods-EdwardJWT_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdwardJWT_Tests-Info.plist"; sourceTree = "<group>"; };
 		68FB31FB2FE004245E1A56AFCE24F90E /* Pods-EdwardJWT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdwardJWT_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		740926C9D22FF6C044A3C480723E16DD /* Pods_EdwardJWT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdwardJWT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		810129282D7FE3016075769E01467E22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		740926C9D22FF6C044A3C480723E16DD /* Pods_EdwardJWT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EdwardJWT_Tests.framework; path = "Pods-EdwardJWT_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810129282D7FE3016075769E01467E22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8A518711C037C8445F12F081BEB8D870 /* Pods-EdwardJWT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdwardJWT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E930840AE503643619B402DA0F4FA08 /* Pods-EdwardJWT_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EdwardJWT_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C0371DD6309026A4924DB42E6C710586 /* Pods-EdwardJWT_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EdwardJWT_Tests.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CB6796363DEF58FCF3E40F15CBF13A1D /* Pods-EdwardJWT_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EdwardJWT_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -85,8 +67,6 @@
 		0F8F00311660846F2F9E6004453B39C3 /* EdwardJWT */ = {
 			isa = PBXGroup;
 			children = (
-				2B4B1501225B8ADA0021E67C /* Assets */,
-				2B4B14ED225B8ADA0021E67C /* Classes */,
 				3C2C7CD77E0660FC89E38C7933755561 /* Pod */,
 				48498DC4371D743B7103B265A85E97DE /* Support Files */,
 			);
@@ -108,63 +88,6 @@
 			);
 			name = "Pods-EdwardJWT_Tests";
 			path = "Target Support Files/Pods-EdwardJWT_Tests";
-			sourceTree = "<group>";
-		};
-		2B4B14ED225B8ADA0021E67C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2B4B14EE225B8ADA0021E67C /* JWT */,
-				2B4B14F9225B8ADA0021E67C /* JWA */,
-				2B4B1500225B8ADA0021E67C /* .gitkeep */,
-			);
-			name = Classes;
-			path = EdwardJWT/Classes;
-			sourceTree = "<group>";
-		};
-		2B4B14EE225B8ADA0021E67C /* JWT */ = {
-			isa = PBXGroup;
-			children = (
-				2B4B14EF225B8ADA0021E67C /* Claims.swift */,
-				2B4B14F0225B8ADA0021E67C /* Encode.swift */,
-				2B4B14F1225B8ADA0021E67C /* CompactJSONEncoder.swift */,
-				2B4B14F2225B8ADA0021E67C /* CompactJSONDecoder.swift */,
-				2B4B14F3225B8ADA0021E67C /* JWT.swift */,
-				2B4B14F4225B8ADA0021E67C /* Algorithm.swift */,
-				2B4B14F5225B8ADA0021E67C /* Decode.swift */,
-				2B4B14F6225B8ADA0021E67C /* ClaimSet.swift */,
-				2B4B14F7225B8ADA0021E67C /* Base64.swift */,
-				2B4B14F8225B8ADA0021E67C /* JOSEHeader.swift */,
-			);
-			path = JWT;
-			sourceTree = "<group>";
-		};
-		2B4B14F9225B8ADA0021E67C /* JWA */ = {
-			isa = PBXGroup;
-			children = (
-				2B4B14FA225B8ADA0021E67C /* HMAC */,
-				2B4B14FE225B8ADA0021E67C /* None.swift */,
-				2B4B14FF225B8ADA0021E67C /* JWA.swift */,
-			);
-			path = JWA;
-			sourceTree = "<group>";
-		};
-		2B4B14FA225B8ADA0021E67C /* HMAC */ = {
-			isa = PBXGroup;
-			children = (
-				2B4B14FB225B8ADA0021E67C /* HMACCryptoSwift.swift */,
-				2B4B14FC225B8ADA0021E67C /* HMACCommonCrypto.swift */,
-				2B4B14FD225B8ADA0021E67C /* HMAC.swift */,
-			);
-			path = HMAC;
-			sourceTree = "<group>";
-		};
-		2B4B1501225B8ADA0021E67C /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				2B4B1502225B8ADA0021E67C /* .gitkeep */,
-			);
-			name = Assets;
-			path = EdwardJWT/Assets;
 			sourceTree = "<group>";
 		};
 		3C2C7CD77E0660FC89E38C7933755561 /* Pod */ = {
@@ -284,7 +207,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -540,7 +462,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
