@@ -1,6 +1,0 @@
-framework module EdwardJWT {
-  umbrella header "EdwardJWT-umbrella.h"
-
-  export *
-  module * { export * }
-}
