@@ -3,20 +3,21 @@
   "version": "0.1.0",
   "summary": "A short description of EdwardJWT.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/edward/EdwardJWT",
+  "homepage": "https://github.com/EdwardSun123/EdwardJWT",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "edward": "cuikefan@bituniverse.org"
+    "edward": "EdwardSun123"
   },
   "source": {
-    "git": "https://github.com/edward/EdwardJWT.git",
+    "git": "https://github.com/EdwardSun123/EdwardJWT.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "6.0"
   },
-  "source_files": "EdwardJWT/Classes/**/*"
+  "swift_version": "4.0",
+  "source_files": "EdwardJWT/*"
 }
