@@ -1,0 +1,22 @@
+{
+  "name": "EdwardJWT",
+  "version": "0.1.0",
+  "summary": "A short description of EdwardJWT.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/edward/EdwardJWT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "edward": "cuikefan@bituniverse.org"
+  },
+  "source": {
+    "git": "https://github.com/edward/EdwardJWT.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EdwardJWT/Classes/**/*"
+}

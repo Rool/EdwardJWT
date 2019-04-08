@@ -1,0 +1,16 @@
+PODS:
+  - EdwardJWT (0.1.0)
+
+DEPENDENCIES:
+  - EdwardJWT (from `../`)
+
+EXTERNAL SOURCES:
+  EdwardJWT:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EdwardJWT: 82b81ed3d87ea18a8b5624cff348de62787cb4b3
+
+PODFILE CHECKSUM: 02579a11646118c4cfaf959eab064414eb041e4a
+
+COCOAPODS: 1.6.0.beta.2
