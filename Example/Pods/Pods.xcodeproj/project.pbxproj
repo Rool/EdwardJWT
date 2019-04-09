@@ -6,22 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		84FE738E53F223634B91ABC2AF6642FB /* EdwardJWT */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = D55E0C56DEDD69D6DA807F86A08302D4 /* Build configuration list for PBXAggregateTarget "EdwardJWT" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = EdwardJWT;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		58D8189BD0870FF79397A026605D4B3A /* Pods-EdwardJWT_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E930840AE503643619B402DA0F4FA08 /* Pods-EdwardJWT_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		657538DA84A89C8BEEEBE3D17649ADD9 /* Pods-EdwardJWT_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2333CBC4DF50A8AE33B39E76EF9BA01D /* Pods-EdwardJWT_Tests-dummy.m */; };
+		14B560EB4E5F2F3DCE917B96DD040BCA /* HMACCommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59723946F82C0D78F9C7785C19BB8C71 /* HMACCommonCrypto.swift */; };
+		25B6B8A86F6A1591E3BF7D8EA5D9A352 /* Claims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23903CE70C220A3D9AE634999A264936 /* Claims.swift */; };
+		2EC8E805E69C9A2251953ABED7C9FD3A /* Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D14D57B54A98083A323F2363733F61A /* Encode.swift */; };
+		58D8189BD0870FF79397A026605D4B3A /* Pods-EdwardJWT_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B49CB881955E284397B40849FBC27F /* Pods-EdwardJWT_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		657538DA84A89C8BEEEBE3D17649ADD9 /* Pods-EdwardJWT_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DA46E295D46D03CF3171C3D8132BBB /* Pods-EdwardJWT_Tests-dummy.m */; };
+		68E65DF5A0DCBD9DDDD472A329A10134 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C118F7A9341161AA12F6AD343151B0 /* Base64.swift */; };
+		8793F9A4400816655C2E9C271C6A1AFE /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2FA35B5C434D074B4E8783672FC50 /* JWT.swift */; };
+		B5227825BC17258FFE78A091202F9503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C0E07270B33C2F5D86FDE52695990835 /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F9BFBF5358C34905F183428AC59981 /* Decode.swift */; };
 		C24D68A3061B8FE8E87388139F9E18B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CD9AE9CDE5359BD33CFE7A44AAE8113D /* ClaimSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE99C7B8EA0C381C84024F1DE5A23990 /* ClaimSet.swift */; };
+		F0F2074904AD963AFA1AFAE577265CBE /* EdwardJWT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 208D3511640B6627ACC6B9E41E2F1F24 /* EdwardJWT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5947C281E3233DF33B38A2FFDB3BDB4 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE04548E6E6F1845526AE53205359F4 /* HMAC.swift */; };
+		F5F6751FEF65BC5616C12EFCB98644D7 /* JOSEHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57882614D942ED6422F1EAAFF8238F24 /* JOSEHeader.swift */; };
+		F77ACDEF80EB3805BBF06EE7F802489B /* EdwardJWT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D214EA46D0A8656AC36BDC207516C409 /* EdwardJWT-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,30 +29,54 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84FE738E53F223634B91ABC2AF6642FB;
+			remoteGlobalIDString = 57CA01948E6CC4E2DD6FCC28DDA339A9;
 			remoteInfo = EdwardJWT;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07DB5A4F34A2E7CEA6D2D9965C96E129 /* EdwardJWT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EdwardJWT.xcconfig; sourceTree = "<group>"; };
-		1F40DDF3FA7B6967B372FA8C9A481015 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2333CBC4DF50A8AE33B39E76EF9BA01D /* Pods-EdwardJWT_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EdwardJWT_Tests-dummy.m"; sourceTree = "<group>"; };
-		33039EB9B8EFDA1AF3E32CD109B1FCC7 /* EdwardJWT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EdwardJWT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		412852ADD80483C79E9308FF2BA6B60A /* Pods-EdwardJWT_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdwardJWT_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		668A7017682BC0A5B765608E432BD44F /* Pods-EdwardJWT_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdwardJWT_Tests-Info.plist"; sourceTree = "<group>"; };
-		68FB31FB2FE004245E1A56AFCE24F90E /* Pods-EdwardJWT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdwardJWT_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		740926C9D22FF6C044A3C480723E16DD /* Pods_EdwardJWT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EdwardJWT_Tests.framework; path = "Pods-EdwardJWT_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		810129282D7FE3016075769E01467E22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8A518711C037C8445F12F081BEB8D870 /* Pods-EdwardJWT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdwardJWT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8E930840AE503643619B402DA0F4FA08 /* Pods-EdwardJWT_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EdwardJWT_Tests-umbrella.h"; sourceTree = "<group>"; };
+		17DF2F8AEA3BEF6B644ECA00902D41BE /* Pods-EdwardJWT_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdwardJWT_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		208D3511640B6627ACC6B9E41E2F1F24 /* EdwardJWT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EdwardJWT-umbrella.h"; sourceTree = "<group>"; };
+		23903CE70C220A3D9AE634999A264936 /* Claims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Claims.swift; path = EdwardJWT/Classes/JWT/Claims.swift; sourceTree = "<group>"; };
+		23E6E21F1B9A49CA5CE99277D0EEF59A /* Pods-EdwardJWT_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EdwardJWT_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		34C118F7A9341161AA12F6AD343151B0 /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = EdwardJWT/Classes/JWT/Base64.swift; sourceTree = "<group>"; };
+		3AE04548E6E6F1845526AE53205359F4 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = EdwardJWT/Classes/JWT/HMAC.swift; sourceTree = "<group>"; };
+		41F2FA35B5C434D074B4E8783672FC50 /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = EdwardJWT/Classes/JWT/JWT.swift; sourceTree = "<group>"; };
+		4E24AC3417B3B748E7DAD336B2BB5AA0 /* Pods-EdwardJWT_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdwardJWT_Tests-Info.plist"; sourceTree = "<group>"; };
+		5369195E55B7E6EF1BECFCB7FAB8582D /* EdwardJWT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EdwardJWT-Info.plist"; sourceTree = "<group>"; };
+		57882614D942ED6422F1EAAFF8238F24 /* JOSEHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JOSEHeader.swift; path = EdwardJWT/Classes/JWT/JOSEHeader.swift; sourceTree = "<group>"; };
+		59723946F82C0D78F9C7785C19BB8C71 /* HMACCommonCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMACCommonCrypto.swift; path = EdwardJWT/Classes/JWT/HMACCommonCrypto.swift; sourceTree = "<group>"; };
+		60F1B73526780E8451B0475DE629D681 /* Pods_EdwardJWT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EdwardJWT_Tests.framework; path = "Pods-EdwardJWT_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6327ED38D617FFD44746EE1E944E4071 /* Pods-EdwardJWT_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EdwardJWT_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AAF499A909283D122005A578B88204E /* EdwardJWT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EdwardJWT.modulemap; sourceTree = "<group>"; };
+		73F9BFBF5358C34905F183428AC59981 /* Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decode.swift; path = EdwardJWT/Classes/JWT/Decode.swift; sourceTree = "<group>"; };
+		7D639013B8AE81516C5005F2D3BC2CAF /* EdwardJWT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EdwardJWT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		831080AC465EE6980A94E1CD8C4F73E0 /* EdwardJWT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EdwardJWT-prefix.pch"; sourceTree = "<group>"; };
+		8D14D57B54A98083A323F2363733F61A /* Encode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encode.swift; path = EdwardJWT/Classes/JWT/Encode.swift; sourceTree = "<group>"; };
+		96B49CB881955E284397B40849FBC27F /* Pods-EdwardJWT_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EdwardJWT_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0371DD6309026A4924DB42E6C710586 /* Pods-EdwardJWT_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EdwardJWT_Tests.modulemap"; sourceTree = "<group>"; };
+		A8ACB5E4EFDA31696D824FD1814C6050 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B3EE52DEC1B814B1C315E94178704E5D /* Pods-EdwardJWT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdwardJWT_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BBC1594F6530214D0FF28E4E2CE1F7AB /* EdwardJWT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EdwardJWT.xcconfig; sourceTree = "<group>"; };
+		C7846B3192A0CFFA69B096BF51D68382 /* Pods-EdwardJWT_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EdwardJWT_Tests.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CB6796363DEF58FCF3E40F15CBF13A1D /* Pods-EdwardJWT_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EdwardJWT_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D214EA46D0A8656AC36BDC207516C409 /* EdwardJWT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EdwardJWT-dummy.m"; sourceTree = "<group>"; };
+		D472F9A241A9589367D1B75FC6E0C0E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E1DA46E295D46D03CF3171C3D8132BBB /* Pods-EdwardJWT_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EdwardJWT_Tests-dummy.m"; sourceTree = "<group>"; };
+		E76880D0CCEEFA562B9993DEA66C5748 /* EdwardJWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EdwardJWT.framework; path = EdwardJWT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A5501DCD352DB0CB248551F0D71CD7 /* Pods-EdwardJWT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdwardJWT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE99C7B8EA0C381C84024F1DE5A23990 /* ClaimSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClaimSet.swift; path = EdwardJWT/Classes/JWT/ClaimSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		331629FC0AAAFA043DAFE9AD7A4BD6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5227825BC17258FFE78A091202F9503 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F878336F79B5D2D1589D79F803D0848D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,57 +88,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F8F00311660846F2F9E6004453B39C3 /* EdwardJWT */ = {
+		05780FC9F5F4D8E6D1258DE4B63ABAA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C2C7CD77E0660FC89E38C7933755561 /* Pod */,
-				48498DC4371D743B7103B265A85E97DE /* Support Files */,
+				E76880D0CCEEFA562B9993DEA66C5748 /* EdwardJWT.framework */,
+				60F1B73526780E8451B0475DE629D681 /* Pods_EdwardJWT_Tests.framework */,
 			);
-			name = EdwardJWT;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1C97FE5E53C1E762A7C3F44F850BC316 /* Pods-EdwardJWT_Tests */ = {
+		2CFCE7DD1B74F5E5258FA79E3F6D8D4B /* Pods-EdwardJWT_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C0371DD6309026A4924DB42E6C710586 /* Pods-EdwardJWT_Tests.modulemap */,
-				CB6796363DEF58FCF3E40F15CBF13A1D /* Pods-EdwardJWT_Tests-acknowledgements.markdown */,
-				412852ADD80483C79E9308FF2BA6B60A /* Pods-EdwardJWT_Tests-acknowledgements.plist */,
-				2333CBC4DF50A8AE33B39E76EF9BA01D /* Pods-EdwardJWT_Tests-dummy.m */,
-				668A7017682BC0A5B765608E432BD44F /* Pods-EdwardJWT_Tests-Info.plist */,
-				8E930840AE503643619B402DA0F4FA08 /* Pods-EdwardJWT_Tests-umbrella.h */,
-				8A518711C037C8445F12F081BEB8D870 /* Pods-EdwardJWT_Tests.debug.xcconfig */,
-				68FB31FB2FE004245E1A56AFCE24F90E /* Pods-EdwardJWT_Tests.release.xcconfig */,
+				C7846B3192A0CFFA69B096BF51D68382 /* Pods-EdwardJWT_Tests.modulemap */,
+				6327ED38D617FFD44746EE1E944E4071 /* Pods-EdwardJWT_Tests-acknowledgements.markdown */,
+				17DF2F8AEA3BEF6B644ECA00902D41BE /* Pods-EdwardJWT_Tests-acknowledgements.plist */,
+				E1DA46E295D46D03CF3171C3D8132BBB /* Pods-EdwardJWT_Tests-dummy.m */,
+				23E6E21F1B9A49CA5CE99277D0EEF59A /* Pods-EdwardJWT_Tests-frameworks.sh */,
+				4E24AC3417B3B748E7DAD336B2BB5AA0 /* Pods-EdwardJWT_Tests-Info.plist */,
+				96B49CB881955E284397B40849FBC27F /* Pods-EdwardJWT_Tests-umbrella.h */,
+				F0A5501DCD352DB0CB248551F0D71CD7 /* Pods-EdwardJWT_Tests.debug.xcconfig */,
+				B3EE52DEC1B814B1C315E94178704E5D /* Pods-EdwardJWT_Tests.release.xcconfig */,
 			);
 			name = "Pods-EdwardJWT_Tests";
 			path = "Target Support Files/Pods-EdwardJWT_Tests";
 			sourceTree = "<group>";
 		};
-		3C2C7CD77E0660FC89E38C7933755561 /* Pod */ = {
+		2EAE9406F5644461700FC7976DC8DF0A /* EdwardJWT */ = {
 			isa = PBXGroup;
 			children = (
-				33039EB9B8EFDA1AF3E32CD109B1FCC7 /* EdwardJWT.podspec */,
-				1F40DDF3FA7B6967B372FA8C9A481015 /* LICENSE */,
-				810129282D7FE3016075769E01467E22 /* README.md */,
+				34C118F7A9341161AA12F6AD343151B0 /* Base64.swift */,
+				23903CE70C220A3D9AE634999A264936 /* Claims.swift */,
+				FE99C7B8EA0C381C84024F1DE5A23990 /* ClaimSet.swift */,
+				73F9BFBF5358C34905F183428AC59981 /* Decode.swift */,
+				8D14D57B54A98083A323F2363733F61A /* Encode.swift */,
+				3AE04548E6E6F1845526AE53205359F4 /* HMAC.swift */,
+				59723946F82C0D78F9C7785C19BB8C71 /* HMACCommonCrypto.swift */,
+				57882614D942ED6422F1EAAFF8238F24 /* JOSEHeader.swift */,
+				41F2FA35B5C434D074B4E8783672FC50 /* JWT.swift */,
+				63E4359C04C39FF0B932DAFC52B1F2B2 /* Pod */,
+				E9641C6699312B88FC373AC09AECD105 /* Support Files */,
+			);
+			name = EdwardJWT;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4D74C8F2C103437CAAB4A898F427C57F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE9406F5644461700FC7976DC8DF0A /* EdwardJWT */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		63E4359C04C39FF0B932DAFC52B1F2B2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7D639013B8AE81516C5005F2D3BC2CAF /* EdwardJWT.podspec */,
+				D472F9A241A9589367D1B75FC6E0C0E9 /* LICENSE */,
+				A8ACB5E4EFDA31696D824FD1814C6050 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		48498DC4371D743B7103B265A85E97DE /* Support Files */ = {
+		64FFD9557D06BD131AAE59A66FA42CF2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				07DB5A4F34A2E7CEA6D2D9965C96E129 /* EdwardJWT.xcconfig */,
+				2CFCE7DD1B74F5E5258FA79E3F6D8D4B /* Pods-EdwardJWT_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EdwardJWT";
-			sourceTree = "<group>";
-		};
-		81520A951F46C5C55464D7D46C0FF615 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				740926C9D22FF6C044A3C480723E16DD /* Pods_EdwardJWT_Tests.framework */,
-			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -125,22 +167,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A5ED939C7AACA3C1898DB2F0235D3D3F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0F8F00311660846F2F9E6004453B39C3 /* EdwardJWT */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A5ED939C7AACA3C1898DB2F0235D3D3F /* Development Pods */,
+				4D74C8F2C103437CAAB4A898F427C57F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				81520A951F46C5C55464D7D46C0FF615 /* Products */,
-				FDC7C07B3ADDB5436C82CFEC543F122E /* Targets Support Files */,
+				05780FC9F5F4D8E6D1258DE4B63ABAA1 /* Products */,
+				64FFD9557D06BD131AAE59A66FA42CF2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,17 +186,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FDC7C07B3ADDB5436C82CFEC543F122E /* Targets Support Files */ = {
+		E9641C6699312B88FC373AC09AECD105 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1C97FE5E53C1E762A7C3F44F850BC316 /* Pods-EdwardJWT_Tests */,
+				6AAF499A909283D122005A578B88204E /* EdwardJWT.modulemap */,
+				BBC1594F6530214D0FF28E4E2CE1F7AB /* EdwardJWT.xcconfig */,
+				D214EA46D0A8656AC36BDC207516C409 /* EdwardJWT-dummy.m */,
+				5369195E55B7E6EF1BECFCB7FAB8582D /* EdwardJWT-Info.plist */,
+				831080AC465EE6980A94E1CD8C4F73E0 /* EdwardJWT-prefix.pch */,
+				208D3511640B6627ACC6B9E41E2F1F24 /* EdwardJWT-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EdwardJWT";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2A8EACC725368C9B00CC83C3B7489B67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F2074904AD963AFA1AFAE577265CBE /* EdwardJWT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E467CE138CEF3000EB93C367E79B6565 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,7 +238,25 @@
 			);
 			name = "Pods-EdwardJWT_Tests";
 			productName = "Pods-EdwardJWT_Tests";
-			productReference = 740926C9D22FF6C044A3C480723E16DD /* Pods_EdwardJWT_Tests.framework */;
+			productReference = 60F1B73526780E8451B0475DE629D681 /* Pods_EdwardJWT_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57CA01948E6CC4E2DD6FCC28DDA339A9 /* EdwardJWT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E02E43F3869CAF224877D79F0AD0D73 /* Build configuration list for PBXNativeTarget "EdwardJWT" */;
+			buildPhases = (
+				2A8EACC725368C9B00CC83C3B7489B67 /* Headers */,
+				E3573ED9FF24F19B39F00ACE473B0681 /* Sources */,
+				331629FC0AAAFA043DAFE9AD7A4BD6E0 /* Frameworks */,
+				3DEECC082D3D1AFA350AC29BD9EE144C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdwardJWT;
+			productName = EdwardJWT;
+			productReference = E76880D0CCEEFA562B9993DEA66C5748 /* EdwardJWT.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -210,17 +276,24 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 81520A951F46C5C55464D7D46C0FF615 /* Products */;
+			productRefGroup = 05780FC9F5F4D8E6D1258DE4B63ABAA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84FE738E53F223634B91ABC2AF6642FB /* EdwardJWT */,
+				57CA01948E6CC4E2DD6FCC28DDA339A9 /* EdwardJWT */,
 				0793BE13D16F4FF9275785A7F8446574 /* Pods-EdwardJWT_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3DEECC082D3D1AFA350AC29BD9EE144C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DD8A7B14CE84141B2B4F6D13B71191E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,34 +312,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3573ED9FF24F19B39F00ACE473B0681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E65DF5A0DCBD9DDDD472A329A10134 /* Base64.swift in Sources */,
+				25B6B8A86F6A1591E3BF7D8EA5D9A352 /* Claims.swift in Sources */,
+				CD9AE9CDE5359BD33CFE7A44AAE8113D /* ClaimSet.swift in Sources */,
+				C0E07270B33C2F5D86FDE52695990835 /* Decode.swift in Sources */,
+				F77ACDEF80EB3805BBF06EE7F802489B /* EdwardJWT-dummy.m in Sources */,
+				2EC8E805E69C9A2251953ABED7C9FD3A /* Encode.swift in Sources */,
+				F5947C281E3233DF33B38A2FFDB3BDB4 /* HMAC.swift in Sources */,
+				14B560EB4E5F2F3DCE917B96DD040BCA /* HMACCommonCrypto.swift in Sources */,
+				F5F6751FEF65BC5616C12EFCB98644D7 /* JOSEHeader.swift in Sources */,
+				8793F9A4400816655C2E9C271C6A1AFE /* JWT.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		16B6A67F9D78ED1320D5575C38527E71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EdwardJWT;
-			target = 84FE738E53F223634B91ABC2AF6642FB /* EdwardJWT */;
+			target = 57CA01948E6CC4E2DD6FCC28DDA339A9 /* EdwardJWT */;
 			targetProxy = 7CBC0D1EA16BB312366ACD2E1C1AF650 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2F5A0ABD63C59CBFBA34A3B23C01EBFD /* Debug */ = {
+		288E2F8F4FE1B86542804E523B226CBD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07DB5A4F34A2E7CEA6D2D9965C96E129 /* EdwardJWT.xcconfig */;
+			baseConfigurationReference = BBC1594F6530214D0FF28E4E2CE1F7AB /* EdwardJWT.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EdwardJWT/EdwardJWT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EdwardJWT/EdwardJWT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EdwardJWT/EdwardJWT.modulemap";
+				PRODUCT_MODULE_NAME = EdwardJWT;
+				PRODUCT_NAME = EdwardJWT;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 		3C3C75DE00C8522F826E4289E935BC5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A518711C037C8445F12F081BEB8D870 /* Pods-EdwardJWT_Tests.debug.xcconfig */;
+			baseConfigurationReference = F0A5501DCD352DB0CB248551F0D71CD7 /* Pods-EdwardJWT_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -296,6 +404,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3EB0F88EBCC5849E268B9168A6337E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC1594F6530214D0FF28E4E2CE1F7AB /* EdwardJWT.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EdwardJWT/EdwardJWT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EdwardJWT/EdwardJWT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EdwardJWT/EdwardJWT.modulemap";
+				PRODUCT_MODULE_NAME = EdwardJWT;
+				PRODUCT_NAME = EdwardJWT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -361,23 +501,9 @@
 			};
 			name = Debug;
 		};
-		C50ED39B22FD795E2463A005CC4044B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07DB5A4F34A2E7CEA6D2D9965C96E129 /* EdwardJWT.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		C884114E1C09D74A8C2976CAAA06BD65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68FB31FB2FE004245E1A56AFCE24F90E /* Pods-EdwardJWT_Tests.release.xcconfig */;
+			baseConfigurationReference = B3EE52DEC1B814B1C315E94178704E5D /* Pods-EdwardJWT_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -472,6 +598,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0E02E43F3869CAF224877D79F0AD0D73 /* Build configuration list for PBXNativeTarget "EdwardJWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288E2F8F4FE1B86542804E523B226CBD /* Debug */,
+				3EB0F88EBCC5849E268B9168A6337E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		18AD92F0EB6EDA6152B45A61A23BF441 /* Build configuration list for PBXNativeTarget "Pods-EdwardJWT_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -486,15 +621,6 @@
 			buildConfigurations = (
 				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
 				F232B5ECA11A71BFA199A229B323F454 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D55E0C56DEDD69D6DA807F86A08302D4 /* Build configuration list for PBXAggregateTarget "EdwardJWT" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F5A0ABD63C59CBFBA34A3B23C01EBFD /* Debug */,
-				C50ED39B22FD795E2463A005CC4044B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
