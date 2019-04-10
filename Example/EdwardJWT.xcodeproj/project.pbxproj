@@ -132,8 +132,8 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = R5H2AWP77A;
 						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -328,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C90FC75C1D9891E75E22ED4 /* Pods-EdwardJWT_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = R5H2AWP77A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -341,8 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdwardJWT_Example.app/EdwardJWT_Example";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -350,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F4AE33F592BA55569F844E8 /* Pods-EdwardJWT_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = R5H2AWP77A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -359,8 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdwardJWT_Example.app/EdwardJWT_Example";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
