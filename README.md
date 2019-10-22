@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/EdwardJWT.svg?style=flat)](https://cocoapods.org/pods/EdwardJWT)
 [![License](https://img.shields.io/cocoapods/l/EdwardJWT.svg?style=flat)](https://cocoapods.org/pods/EdwardJWT)
 [![Platform](https://img.shields.io/cocoapods/p/EdwardJWT.svg?style=flat)](https://cocoapods.org/pods/EdwardJWT)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Example
 
